@@ -1,0 +1,20 @@
+{
+  "name": "react-speedometer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "rdw serve score-o-meter.mdx",
+    "postinstall": "playwright install chromium",
+    "test": "playwright test"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@playwright/test": "^1.13.1",
+    "d3-scale": "^4.0.0",
+    "d3-shape": "^3.0.1",
+    "prop-types": "^15.7.2",
+    "react-display-window": "^2.1.2"
+  }
+}

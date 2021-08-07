@@ -1,0 +1,20 @@
+import { PlayGround, Knobs } from "react-display-window/lib/components";
+import ScoreOMeter from "./src/ScoreOMeter";
+
+# ScoreOMeter
+
+## Shows score on a scale of 0 to 4+
+
+<PlayGround>
+  <div id="test" style={{ display: "flex" }}>
+    <ScoreOMeter score="0" />
+    <ScoreOMeter score="1" />
+    <ScoreOMeter score="2" />
+    <ScoreOMeter score="3" />
+    <ScoreOMeter score="4" />
+  </div>
+</PlayGround>
+
+<Knobs component={ScoreOMeter} defaults={{ score: "1.8" }}>
+  <ScoreOMeter />
+</Knobs>
