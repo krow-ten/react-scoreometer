@@ -21,3 +21,7 @@ Using [react-display-window](https://www.npmjs.com/package/react-display-window)
 Using Playwright to do a visual snapshot test. Make sure the project is running before running the test:
 
     npm t
+
+## Screenshot
+
+![ScoreOMeter screenshot](/tests/ScoreOMeter.spec.ts-snapshots/ScoreOMeter-reference-darwin.png?raw=true "ScoreOMeter")
